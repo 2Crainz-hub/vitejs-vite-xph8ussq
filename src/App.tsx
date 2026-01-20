@@ -74,7 +74,7 @@ const PredictionApp = () => {
     );
   }, []);
 
-  const handleLogin = (phone: string) => {
+  const handleLogin = (email: string) => {
     haptic('medium');
     setUser(DEMO_USER);
     setCurrentView('groups');
@@ -271,7 +271,7 @@ const LoginView = ({ onLogin, isInstalled }: any) => {
           <img
             src="https://i.imgur.com/S3VZl4y.png"
             alt="VYRE Logo"
-            className="w-64 h-64 mx-auto mb-6 drop-shadow-2xl"
+            className="w-80 h-80 mx-auto mb-2 drop-shadow-2xl"
             style={{filter: 'drop-shadow(0 0 40px rgba(168, 85, 247, 0.6))'}}
           />
           <h1 className="text-7xl font-black mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
