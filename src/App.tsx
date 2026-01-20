@@ -74,7 +74,7 @@ const PredictionApp = () => {
     );
   }, []);
 
-  const handleLogin = (email: string) => {
+  const handleLogin = (phone: string) => {
     haptic('medium');
     setUser(DEMO_USER);
     setCurrentView('groups');
